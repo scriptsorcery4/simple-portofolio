@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+header ul li{
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.hero-left{
+    width: 50%;
+}
+
+.hero-left h1{
+    font-weight: 900;
+}
+
+.hero-left p{
+    color: gray;
+}
+
+.hero-left div{
+    margin-top: 1rem;
+    display: flex;
+    gap: 5px;
+}
+
+.hero-right{
+    width: 50%;
+}
+
+.hero-right img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+.btn-fill{
+    background-color: blue;
+    padding: 0.7rem 1rem;
+    color: white;
+    border: 1px solid blue;
+    font-weight: 800;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.btn-fill:hover{
+    background-color: transparent;
+    color: blue;
+    border: blue 1px solid;
+}
+
+.btn-ghost{
+    background-color: black;
+    padding: 0.7rem 1rem;
+    color: white;
+    border: 1px solid black;
+    font-weight: 800;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.btn-ghost:hover{
+
+    background-color: transparent;
+    color: black;
+}
